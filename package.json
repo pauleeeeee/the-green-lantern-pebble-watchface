@@ -1,0 +1,40 @@
+{
+  "name": "the-green-lantern",
+  "author": "swansswansswansswanssosoft",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "The Green Lantern",
+    "uuid": "9e04c18f-1188-4f0b-aab0-5b11bf0c4e3d",
+    "sdkVersion": "3",
+    "enableMultiJS": false,
+    "targetPlatforms": [
+      "chalk"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+        {
+          "menuIcon": true,
+          "type": "png",
+          "name": "IMAGE_MENU_ICON",
+          "file": "images/green_lantern_icon.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "GL",
+          "file": "images/green_lantern.png"
+        }
+      ]
+    }
+  }
+}
